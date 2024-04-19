@@ -22,14 +22,66 @@
 					<Item Name="SubtractionHandler.lvclass" Type="LVClass" URL="../ChainOfResponsibility1/SubtractionHandler_class/SubtractionHandler.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Command" Type="Folder"/>
+			<Item Name="Command" Type="Folder">
+				<Item Name="Command1" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="Comman1_Main(RemoteLoader).vi" Type="VI" URL="../Command1/Comman1_Main(RemoteLoader).vi"/>
+					<Item Name="Design1.uml" Type="Document" URL="../Command1/Design1.uml"/>
+					<Item Name="1.png" Type="Document" URL="../Command1/1.png"/>
+					<Item Name="2.png" Type="Document" URL="../Command1/2.png"/>
+					<Item Name="3.png" Type="Document" URL="../Command1/3.png"/>
+					<Item Name="4.png" Type="Document" URL="../Command1/4.png"/>
+					<Item Name="CeilingFan.lvclass" Type="LVClass" URL="../Command1/CeilingFan_class/CeilingFan.lvclass"/>
+					<Item Name="CeilingFanHighCommand.lvclass" Type="LVClass" URL="../Command1/CeilingFanHighCommand_class/CeilingFanHighCommand.lvclass"/>
+					<Item Name="CeilingFanLowCommand.lvclass" Type="LVClass" URL="../Command1/CeilingFanLowCommand_class/CeilingFanLowCommand.lvclass"/>
+					<Item Name="Command.lvclass" Type="LVClass" URL="../Command1/Command_class/Command.lvclass"/>
+					<Item Name="GarageDoor.lvclass" Type="LVClass" URL="../Command1/GarageDoor_class/GarageDoor.lvclass"/>
+					<Item Name="GarageDoorCloseCommand.lvclass" Type="LVClass" URL="../Command1/GarageDoorCloseCommand_class/GarageDoorCloseCommand.lvclass"/>
+					<Item Name="GarageDoorOpenCommand.lvclass" Type="LVClass" URL="../Command1/GarageDoorOpenCommand_class/GarageDoorOpenCommand.lvclass"/>
+					<Item Name="Light.lvclass" Type="LVClass" URL="../Command1/Light_class/Light.lvclass"/>
+					<Item Name="LightOffCommand.lvclass" Type="LVClass" URL="../Command1/LightOffCommand_class/LightOffCommand.lvclass"/>
+					<Item Name="LightOnCommand.lvclass" Type="LVClass" URL="../Command1/LightOnCommand_class/LightOnCommand.lvclass"/>
+					<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../Command1/RemoteControl_class/RemoteControl.lvclass"/>
+					<Item Name="RemoteLoader.lvclass" Type="LVClass" URL="../Command1/RemoteLoader_class/RemoteLoader.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="Interpreter" Type="Folder"/>
 			<Item Name="Iterator" Type="Folder"/>
 			<Item Name="Mediator" Type="Folder"/>
 			<Item Name="Memento" Type="Folder"/>
-			<Item Name="Observer" Type="Folder"/>
-			<Item Name="State" Type="Folder"/>
-			<Item Name="Strategy" Type="Folder"/>
+			<Item Name="Observer" Type="Folder">
+				<Item Name="Observer1_WheaterStation" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="Observer.lvclass" Type="LVClass" URL="../Observer1_WheaterStation/Observer_class/Observer.lvclass"/>
+					<Item Name="CurrentConditionDisplay.lvclass" Type="LVClass" URL="../Observer1_WheaterStation/CurrentConditionDisplay_class/CurrentConditionDisplay.lvclass"/>
+					<Item Name="ForecastConditionDisplay.lvclass" Type="LVClass" URL="../Observer1_WheaterStation/ForecastConditionDisplay_class/ForecastConditionDisplay.lvclass"/>
+					<Item Name="WeatherStation.lvclass" Type="LVClass" URL="../Observer1_WheaterStation/WeatherStation_class/WeatherStation.lvclass"/>
+					<Item Name="Observer1_WheaterStation_Main.vi" Type="VI" URL="../Observer1_WheaterStation/Observer1_WheaterStation_Main.vi"/>
+					<Item Name="WeatherData.ctl" Type="VI" URL="../Observer1_WheaterStation/WeatherData.ctl"/>
+				</Item>
+			</Item>
+			<Item Name="State" Type="Folder">
+				<Item Name="State1" Type="Folder">
+					<Item Name="HasMoneyState.lvclass" Type="LVClass" URL="../State1/HasMoneyState_class/HasMoneyState.lvclass"/>
+					<Item Name="NoMoneyState.lvclass" Type="LVClass" URL="../State1/NoMoneyState_class/NoMoneyState.lvclass"/>
+					<Item Name="SoldOutState.lvclass" Type="LVClass" URL="../State1/SoldOutState_class/SoldOutState.lvclass"/>
+					<Item Name="SoldState.lvclass" Type="LVClass" URL="../State1/SoldState_class/SoldState.lvclass"/>
+					<Item Name="State.lvclass" Type="LVClass" URL="../State1/State_class/State.lvclass"/>
+					<Item Name="StateDesign.uml" Type="Document" URL="../State1/StateDesign.uml"/>
+					<Item Name="StateMachine.uml" Type="Document" URL="../State1/StateMachine.uml"/>
+					<Item Name="StatePattern_Main.vi" Type="VI" URL="../State1/StatePattern_Main.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Strategy" Type="Folder">
+				<Item Name="Strategy1" Type="Folder">
+					<Item Name="CRC Implementations.lvlib" Type="Library" URL="../Strategy1/CRC Implementations.lvlib"/>
+					<Item Name="CRC64.lvclass" Type="LVClass" URL="../Strategy1/CRC64_interface/CRC64.lvclass"/>
+					<Item Name="MulitMeters.lvlib" Type="Library" URL="../Strategy1/MulitMeters.lvlib"/>
+					<Item Name="StrategyPattern.uml" Type="Document" URL="../Strategy1/StrategyPattern.uml"/>
+					<Item Name="VdRs232.lvclass" Type="LVClass" URL="../Strategy1/VdRs232_class/VdRs232.lvclass"/>
+					<Item Name="VdTcpIP.lvclass" Type="LVClass" URL="../Strategy1/VdTcpIP_class/VdTcpIP.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="Template Method" Type="Folder"/>
 			<Item Name="Visitor" Type="Folder"/>
 		</Item>
@@ -136,7 +188,9 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
@@ -340,13 +394,27 @@
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Escape XML.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Escape XML.vi"/>
+				<Item Name="EscapeChars.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/EscapeChars.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
+				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
+				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
+				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
+				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
+				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="GOOPUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtility.lvlib"/>
+				<Item Name="JKI_Copy_Add State(s) to Queue.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/JKI_Copy_Add State(s) to Queue.vi"/>
+				<Item Name="JKI_Copy_Parse State Queue.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/JKI_Copy_Parse State Queue.vi"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
@@ -354,15 +422,26 @@
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
+				<Item Name="VISA Serial Break (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break (Instr).vi"/>
+				<Item Name="VISA Serial Break (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break (Serial Instr).vi"/>
+				<Item Name="VISA Serial Break.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Serial Break.vi"/>
+				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">

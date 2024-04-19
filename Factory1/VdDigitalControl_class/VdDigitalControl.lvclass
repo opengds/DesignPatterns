@@ -13,7 +13,7 @@
 	<Property Name="EndevoGOOP_FrameThickness" Type="UInt">1</Property>
 	<Property Name="EndevoGOOP_PlugIns" Type="Bin">)!#!!!!!!!A!4A$R!!!!!!!!!!%;2U244(:$&lt;'&amp;T=V^1&lt;(6H37Z5?8"F=SZD&gt;'Q!+U!7!!).2'6T;7&gt;O5'&amp;U&gt;'6S&lt;AN.:82I&lt;W25?8"F=Q!%6(FQ:1!!$%!Q`````Q**2!!!%%!Q`````Q&gt;7:8*T;7^O!!Z!-P````]%5'&amp;U;!!!$E!Q`````Q2/97VF!!!+1&amp;-%2'&amp;U91!!0!$R!!!!!!!!!!%62U244(:$&lt;'&amp;T=V^1&lt;(6H37YO9X2M!"Z!5!!'!!!!!1!#!!-!"!!&amp;"F"M&gt;7&gt;*&lt;A!!&amp;%"!!!(`````!!9(5'RV:UFO=Q!"!!=!!!!!!!!!!!</Property>
 	<Property Name="EndevoGOOP_TemplateUsed" Type="Str">G4SubTemplate_Simple_4x4x4</Property>
-	<Property Name="EndevoGOOP_TemplateVersion" Type="Str">1.0.0.9</Property>
+	<Property Name="EndevoGOOP_TemplateVersion" Type="Str">3.0.0.0</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,M!!!*Q(C=T:3R;BN"%)&lt;HYE"3')+?)%%ED3P$N)%U?A8F%?9660J+P9#,[?-51G7;1Y7=YLJJB(%AB1BZ!:%W%,B]NVJ*0NG7GE#]?X.X_P`:W5_\SYGE^F,EO&gt;Q=;^8"&gt;H04603G@7`7E;[G7;P:TW+6E\&gt;:8&lt;`;:31BD&gt;^E\M:8H@'&lt;T/\]&gt;`QD`-@;RY.NX[_K1XZ6T_O[?MT(&lt;:%['4M`OXM:7X`HLD0W`8H(8^TX[VW&amp;R7)R@]$0'9P&amp;ITY:^?+AH_WHZ^=&gt;P[[HUWFX`?@TL=`@H+&lt;7X&lt;`ZWL`D\O^`SKCG/`P?_:FXX0M_\9\\I.^J2Y]XXY'S_=^.J""JHUU4B".'K,27%_C"(OC"(OC"\OC/\OC/\OC/&lt;OC'&lt;OC'&lt;OC'LOC+LOC+LOC+HDK[I!O[I,-KQ?4"2%(2I%#1$)I%NY!HY!FY!BZ_3M!4]!1]!5`!1YI%0!&amp;0Q"0Q"$Q-EY!HY!FY!J[!BV+**&amp;*(BS@AI&lt;QY0![0Q_0Q/$R-+1[0!_"-ZB2WCI!BDOG]/$Q/D]0$KTA]$I`$Y`!Y0.DC]$A]$I`$Y`!Q*+W+*ZKWI].$'4&amp;Y$"[$R_!R?#AN"I`"9`!90!90UYH"9`!9%-;%2H%1R"BE*"A`$"[$BY=90!;0Q70Q'$R9;9=ML5R,UX:U?"1?B5@B58A5(EK)QK0Q+$Q+D]*$76&amp;Y&amp;"[&amp;2_&amp;2?*B+&amp;"[&amp;2_&amp;21*2*G6[59MJ!*5E2&amp;"[O&gt;&amp;IU\:)H%EV&gt;*"^?S9&gt;3]G'4@)AE(Q\*GSZZ-S6PEO4&amp;F\SIEB&gt;,]C*)`H/3I38$3*Z%]O!W56&lt;=F]3-G""D9E1-C1(2*XLNU(_=O&amp;KN:,F=SGQWE]FE)O0R7%;DE1S(1RE-"N,P^[88[]GGP;'P7\(Z,J7]@_O^_XZ\^O8SND`VK\.0FZ^\&lt;S^&lt;@?/H/,EOSN0TIDQ`,=LLEX8]?F75@TY5&amp;(IM@J98T?`S.=]80\[7R17VXB?&lt;WE`DWSD0:0X=LN&amp;@QKE:?1!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">VdDigitalControl</Property>
@@ -60,23 +60,23 @@
 	</Item>
 	<Item Name="utils" Type="Folder">
 		<Item Name="VdDigitalControl_New.vi" Type="VI" URL="../VdDigitalControl_New.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)E!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$%.V=H*F&lt;H24&gt;'&amp;U:1!!3!$R!!!!!!!!!!)96G2%;7&gt;J&gt;'&amp;M1W^O&gt;(*P&lt;#ZM&gt;G.M98.T&amp;%^C;G6D&gt;%&amp;U&gt;(*J9H6U:8-O9X2M!"*!5!!"!!1%2'&amp;U91!!&amp;5"Q!#!!!1!&amp;!!F%6F*3:7:0&gt;81!&amp;E!B%%ZF&gt;U^C;G6D&gt;%.S:7&amp;U:71!!$*!=!!?!!!;'&amp;:E2'FH;82B&lt;%.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!"!!!!&amp;V!&amp;A!#'E.S:7&amp;U:3"P=C"M&lt;W^L)(6Q)'6Y;8.U;7ZH%%RP&lt;WMA&gt;8!A:8BJ=X2J&lt;G=!+%.S:7&amp;U:5VF&gt;'BP:#B$=G6B&gt;'5A&lt;X)A&lt;'^P;S"V=#"F?'FT&gt;'FO:SE!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;%!Q`````QN09GJF9X1A&lt;G&amp;N:1!S1(!!(A!!'BB7:%2J:WFU97R$&lt;WZU=G^M,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!'%!]!!-!!-!"A!(!!A!#1!*!!E!#A!,!!E!$!!.!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!A!!!!+!!!!!!!!!AA!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)E!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$%.V=H*F&lt;H24&gt;'&amp;U:1!!3!$R!!!!!!!!!!)96G2%;7&gt;J&gt;'&amp;M1W^O&gt;(*P&lt;#ZM&gt;G.M98.T&amp;%^C;G6D&gt;%&amp;U&gt;(*J9H6U:8-O9X2M!"*!5!!"!!1%2'&amp;U91!!&amp;5"Q!#!!!1!&amp;!!F%6F*3:7:0&gt;81!&amp;E!B%%ZF&gt;U^C;G6D&gt;%.S:7&amp;U:71!!$*!=!!?!!!;'&amp;:E2'FH;82B&lt;%.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!"!!!!&amp;V!&amp;A!#'E.S:7&amp;U:3"P=C"M&lt;W^L)(6Q)'6Y;8.U;7ZH%%RP&lt;WMA&gt;8!A:8BJ=X2J&lt;G=!+%.S:7&amp;U:5VF&gt;'BP:#B$=G6B&gt;'5A&lt;X)A&lt;'^P;S"V=#"F?'FT&gt;'FO:SE!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;%!Q`````QN09GJF9X1A&lt;G&amp;N:1!S1(!!(A!!'BB7:%2J:WFU97R$&lt;WZU=G^M,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!'%!]!!-!!-!"A!(!!A!#1!*!!E!#A!,!!E!$!!.!Q!!?!!!#1!!!!E!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!!!!!!!A!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16785536</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="VdDigitalControl_GetAttributes.vi" Type="VI" URL="../VdDigitalControl_GetAttributes.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'\!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$%.V=H*F&lt;H24&gt;'&amp;U:1!!3!$R!!!!!!!!!!)96G2%;7&gt;J&gt;'&amp;M1W^O&gt;(*P&lt;#ZM&gt;G.M98.T&amp;%^C;G6D&gt;%&amp;U&gt;(*J9H6U:8-O9X2M!"*!5!!"!!1%2'&amp;U91!!%U"Q!#!!!1!&amp;!!&gt;%982B5G6G!$*!=!!?!!!;'&amp;:E2'FH;82B&lt;%.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)%!B'E^O&lt;(F(:82%&gt;H*3:7:F=G6O9W5I2G&amp;M=W5J!!!S1(!!(A!!'BB7:%2J:WFU97R$&lt;WZU=G^M,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!'%!]!!-!!-!"A!&amp;!!=!#!!)!!A!#!!*!!A!#A!,!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'R!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$%.V=H*F&lt;H24&gt;'&amp;U:1!!3!$R!!!!!!!!!!)96G2%;7&gt;J&gt;'&amp;M1W^O&gt;(*P&lt;#ZM&gt;G.M98.T&amp;%^C;G6D&gt;%&amp;U&gt;(*J9H6U:8-O9X2M!"*!5!!"!!1%2'&amp;U91!!%U"Q!#!!!1!&amp;!!&gt;%982B5G6G!$*!=!!?!!!;'&amp;:E2'FH;82B&lt;%.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!A1#%;4WZM?5&gt;F&gt;%2W=F*F:G6S:7ZD:3B'97RT:3E!!$*!=!!?!!!;'&amp;:E2'FH;82B&lt;%.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!'!!5!"Q!)!!A!#!!)!!E!#!!+!!M$!!"Y!!!*!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16785536</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
@@ -127,6 +127,6 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MustCallParent" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 	</Item>
 </LVClass>
